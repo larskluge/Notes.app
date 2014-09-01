@@ -1,0 +1,32 @@
+{
+  "name": "notes.nw",
+  "dependencies": {
+    "coffee-script": {
+      "version": "1.8.0",
+      "from": "coffee-script@*",
+      "dependencies": {
+        "mkdirp": {
+          "version": "0.3.5",
+          "from": "mkdirp@~0.3.5"
+        }
+      }
+    },
+    "jquery": {
+      "version": "2.1.1",
+      "from": "jquery@*",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-2.1.1.tgz"
+    },
+    "ngrep": {
+      "version": "0.0.0",
+      "from": "ngrep@*"
+    },
+    "open": {
+      "version": "0.0.5",
+      "from": "open@*"
+    },
+    "rivets": {
+      "version": "0.6.10",
+      "from": "rivets@*"
+    }
+  }
+}

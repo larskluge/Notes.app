@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Notes</title>
+    <script type="text/javascript" src="js/winstate.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <input type="text" class="input-lg mousetrap" rv-input="app.query" rv-on-input="app.search">
+      </div>
+
+      <table class="table" rv-data-active="app.active | string">
+        <tr rv-each-file="app.files">
+          <td>
+            <span>{file.path | filename}</span>
+            <br>
+            <small rv-html="file.highlightContext | highlight"></small>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,14 @@
+{
+  "name": "notes.nw",
+  "main": "index.html",
+  "window": {
+    "toolbar": true
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "jquery": "*",
+    "ngrep": "*",
+    "open": "*",
+    "rivets": "*"
+  }
+}

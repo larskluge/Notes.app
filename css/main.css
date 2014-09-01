@@ -1,0 +1,15 @@
+body {
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background-color: #f5f5f5;
+  outline: 0;
+}
+
+[data-active="0"] tr:nth-child(1), [data-active="1"] tr:nth-child(2), [data-active="2"] tr:nth-child(3), [data-active="3"] tr:nth-child(4), [data-active="4"] tr:nth-child(5), [data-active="5"] tr:nth-child(6), [data-active="6"] tr:nth-child(7), [data-active="7"] tr:nth-child(8), [data-active="8"] tr:nth-child(9), [data-active="9"] tr:nth-child(10) {
+  background-color: #C1D8E6;
+}
+
