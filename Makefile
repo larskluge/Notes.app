@@ -1,4 +1,4 @@
-.PHONY : init clean build dist publish
+.PHONY : init clean build dist
 
 init:
 	npm install
@@ -7,7 +7,7 @@ clean:
 	rm -rf build/*
 
 build:
-	zip -r build/app.nw *
+	zip -r build/notes.nw *
 
 dist: clean init build
 
