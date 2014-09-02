@@ -1,8 +1,7 @@
 ngrep = require 'ngrep'
 rivets = require 'rivets'
 open = require 'open'
-
-notes_path = '/Users/lars/Dropbox/Notes'
+config = require '../config'
 
 
 rivets.binders.input =
@@ -53,7 +52,7 @@ class View
     @resetSearch()
 
     if @query.length > 1
-      ngrep ///#{@query}///ig, notes_path, (result) =>
+      ngrep ///#{@query}///ig, config.notesPath, (result) =>
         @results++
         @files.push(new File(result.file, result.context))
 
