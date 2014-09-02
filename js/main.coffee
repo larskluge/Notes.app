@@ -1,7 +1,7 @@
 ngrep = require 'ngrep'
 rivets = require 'rivets'
 open = require 'open'
-config = require '../config'
+notesPath = require('../config').notesPath.replace(/^~+/, process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE)
 
 
 rivets.binders.input =
@@ -52,7 +52,7 @@ class View
     @resetSearch()
 
     if @query.length > 1
-      ngrep ///#{@query}///ig, config.notesPath, (result) =>
+      ngrep ///#{@query}///ig, notesPath, (result) =>
         @results++
         @files.push(new File(result.file, result.context))
 
