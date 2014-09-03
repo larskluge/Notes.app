@@ -1,4 +1,4 @@
-# Notes.nw
+# Notes.app
 
 Notes is a node-webkit desktop application to search your local note files.
 

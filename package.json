@@ -1,15 +1,15 @@
 {
-  "name": "notes.nw",
+  "name": "Notes.app",
   "description": "node-webkit based desktop app to search your local notes",
   "author": "Lars Kluge <l@larskluge.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.html",
   "window": {
     "toolbar": false
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/larskluge/notes.nw"
+    "url": "https://github.com/larskluge/Notes.app"
   },
   "dependencies": {
     "coffee-script": "*",
