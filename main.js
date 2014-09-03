@@ -4,10 +4,7 @@ global.document = window.document
 global.navigator = window.navigator
 
 var $ = global.$ = require('jquery')
-
-require('./js/mousetrap.min.js')
-global.Mousetrap = window.Mousetrap
-
+global.Mousetrap = require('mousetrap')
 
 require('./js/main.coffee')
 

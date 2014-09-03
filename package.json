@@ -9,6 +9,7 @@
     "jquery": "*",
     "ngrep": "*",
     "open": "*",
-    "rivets": "*"
+    "rivets": "*",
+    "mousetrap": "0.0.1"
   }
 }
