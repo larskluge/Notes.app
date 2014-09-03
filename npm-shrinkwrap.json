@@ -23,7 +23,8 @@
     },
     "ngrep": {
       "version": "0.0.0",
-      "from": "ngrep@*"
+      "from": "git://github.com/mmalecki/ngrep.git#master",
+      "resolved": "git://github.com/mmalecki/ngrep.git#1b71638fef1722b3640397ad78b98570f94a50b9"
     },
     "open": {
       "version": "0.0.5",

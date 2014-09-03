@@ -14,7 +14,7 @@
   "dependencies": {
     "coffee-script": "*",
     "jquery": "*",
-    "ngrep": "*",
+    "ngrep": "git://github.com/mmalecki/ngrep.git#master",
     "open": "*",
     "rivets": "*",
     "mousetrap": "0.0.1"
