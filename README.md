@@ -2,15 +2,16 @@
 
 Notes is a node-webkit desktop application to search your local note files.
 
-It depends on an installed version of [node-webkit](https://github.com/rogerwang/node-webkit#downloads).
+It depends on [node-webkit](https://github.com/rogerwang/node-webkit#downloads). Download, unzip and copy node-webkit.app into
+``resources/node-webkit.app``.
 
 
-## Build distribution file
+## Build Notes.app
 
     » make dist
 
 
-## Launch Notes
+## Launch Notes.app
 
-    » open build/notes.nw
+    » open build/Notes.app
 
