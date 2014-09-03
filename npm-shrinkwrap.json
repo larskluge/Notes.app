@@ -1,5 +1,6 @@
 {
   "name": "notes.nw",
+  "version": "0.0.2",
   "dependencies": {
     "coffee-script": {
       "version": "1.8.0",
@@ -15,6 +16,10 @@
       "version": "2.1.1",
       "from": "jquery@*",
       "resolved": "https://registry.npmjs.org/jquery/-/jquery-2.1.1.tgz"
+    },
+    "mousetrap": {
+      "version": "0.0.1",
+      "from": "mousetrap@0.0.1"
     },
     "ngrep": {
       "version": "0.0.0",
