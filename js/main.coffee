@@ -1,7 +1,7 @@
 ngrep = require 'ngrep'
 rivets = require 'rivets'
 open = require 'open'
-notesPath = require('../config').notesPath.replace(/^~+/, process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE)
+notesPath = require('./config').notesPath.replace(/^~+/, process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE)
 
 
 rivets.binders.input =
